@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Section Slider</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="sections">
+            <section class="" style="background-image: url('./img/section1.jpeg')"></section>
+            <section class="hidden" style="background-image: url('./img/section2.jpeg')"></section>
+        </div>
+        <div class="slider">
+            <p class="currentSection"></p>
+            <div class="sliderLine"></div>
+            <div class="sliderLineBackground"></div>
+            <p class="maxSection"></p>
+        </div>
+    </body>
+    <style>
+        ::-webkit-scrollbar {
+            width: 15px
+        }
+    
+        ::-webkit-scrollbar-track {
+            background: #808080;
+            border-radius: 0px
+        }
+    
+        ::-webkit-scrollbar-thumb {
+            background: #ffffff;
+            border-radius: 0px
+        }
+    </style>
+    <script src="app.js"></script>
+</html>

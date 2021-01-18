@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider {
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.slider .currentSection {
+    margin-bottom: 40px;
+}
+
+.slider .sliderLine {
+    position: absolute;
+    border-left: 2px solid #ffffff;
+    height: 0vh;
+    max-height: 22.7vh;
+    margin-left: 50%;
+    transition: height 0.7s ease-in-out;
+}
+
+.slider .sliderLineBackground {
+    border-left: 2px solid #747474;
+    height: 22.7vh;
+    margin-left: 50%;
+}
+
+.slider .maxSection {
+    margin-top: 40px;
+}
+
+.slider .currentSection, .slider .maxSection {
+    transform: rotate(-90deg);
+}
