@@ -53,3 +53,28 @@ section {
 .slider .currentSection, .slider .maxSection {
     transform: rotate(-90deg);
 }
+
+@media only screen and (max-width: 800px) {
+    .slider {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .slider .currentSection, .slider .maxSection {
+        transform: rotate(0deg);
+    }
+
+    .slider .sliderLine {
+        border-bottom: 2px solid #ffffff;
+        height: 0vh;
+        max-height: 22.7vh;
+        margin-left: 50%;
+    }
+
+    .slider .sliderLineBackground {
+        border-left: 2px solid #747474;
+        height: 22.7vh;
+        margin-left: 50%;
+    }
+}
