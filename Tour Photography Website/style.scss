@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    overflow: hidden;
+    color: #f1f1f1;
+    list-style-type: none;
+    user-select: none;
+}
+
+html, body {
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 8rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    z-index: 1;
+}
+
+.navbar .search {
+    width: 8rem;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2.5rem 0rem;
+    border-right: 1px solid #f1f1f1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar .title {
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 20rem;
+}
+
+.navbar .title .left {
+    text-align: left;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.navbar .title h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.navbar .title .right {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+.navbar .info {
+    padding-top: 1.5rem;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.navbar .info h3 {
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 20px;
+    transition: letter-spacing 0.3s ease-in-out;
+}
+
+.navbar .info h3:hover {
+    letter-spacing: 2px;
+}
+
+.navbar .info p {
+    font-size: 15px;
+}
+
+.blackbg {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+    position: fixed;
+    width: 8rem;
+    height: 100vh;
+    border-right: 1px solid #f1f1f1;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    display: flex;
+}
+
+.sidebar .nav {
+    margin-top: 140px;
+}
+
+.sidebar .nav li {
+    transform: rotate(-90deg);
+}
+
+.sidebar .nav li h3 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.sidebar .social {
+    margin-top: 800px;
+}
+
+.sidebar ul {
+    margin: 0 auto;
+}
+
+.sidebar ul li {
+    overflow: visible;
+    margin-top: 80px;
+}
+
+.sidebar ul li h3 {
+    cursor: pointer;
+}
+
+.sidebox {
+    position: fixed;
+    width: 40rem;
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+}
+
+.sidebox p {
+    font-size: 1.2rem;
+    margin-bottom: 80px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 6rem;
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+
+i {
+    overflow: visible;
+}
